@@ -4,17 +4,16 @@ version: 0.3.3
 homepage: https://github.com/sobimor/flutter_date_picker_timeline
 
 environment:
-  sdk: '>=2.12.0 <3.0.0'
+  sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.17.0
+  intl: ^0.18.1
   shamsi_date: ^1.0.0
-  scroll_to_index: ^2.1.0
+  scroll_to_index: ^3.0.1
 
 flutter:
-
   fonts:
     - family: Dana
       fonts:
@@ -23,5 +22,3 @@ flutter:
     - family: Nunito
       fonts:
         - asset: assets/fonts/nunito.ttf
-
- 

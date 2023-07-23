@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_date_picker_timeline/src/models/enums/calendar_mode.dart';
-import 'package:flutter_date_picker_timeline/src/utils/ui/custom_scroll_behavior.dart';
-import 'package:flutter_date_picker_timeline/src/widgets/item/date_picker_item_unselected.dart';
-import 'package:flutter_date_picker_timeline/src/widgets/item/date_picker_item_selected.dart';
 import 'package:flutter_date_picker_timeline/src/utils/date_helper_extension.dart';
+import 'package:flutter_date_picker_timeline/src/utils/ui/custom_scroll_behavior.dart';
+import 'package:flutter_date_picker_timeline/src/widgets/item/date_picker_item_selected.dart';
+import 'package:flutter_date_picker_timeline/src/widgets/item/date_picker_item_unselected.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
 
 /// Callback exposing currently selected date.
-typedef DateChangeListener = Function(DateTime? date);
+typedef DateChangeListener = void Function(DateTime? date);
 
 /// Gregorian and Jalali customizable date picker as a horizontal timeline
 class FlutterDatePickerTimeline extends StatefulWidget {
